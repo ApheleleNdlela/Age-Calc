@@ -1,0 +1,95 @@
+.container{
+    /* width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(blue, lightblue, lightskyblue); */
+    color: cadetblue;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.btn{
+    margin-top: 10px;
+    /* background-color: cadetblue; */
+    /* text-emphasis-color: black solid; */
+    text-align: center;
+    
+}
+
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.input-box{
+    margin: 40px 0;
+    padding: 25px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+}
+#date1{
+    margin-top: 10pxx;
+    margin-bottom: 10px;
+    color: black bold;
+    flex: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+#date1 ::-webkit-calender-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+#date2{
+    margin-top: 10pxx;
+    margin-bottom: 10px;
+    color: black bold;
+    flex: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+
+}
+.calculator h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: dodgerblue;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 20pxx;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    color: black bold;
+}
+
+body{
+    background-image: url('blue-blank-notepad-with-copy-space_23-2148475334.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
